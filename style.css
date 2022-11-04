@@ -119,19 +119,17 @@ span{
 .boton.dos:hover::after {
 	left: 0;
 }
-.contenedor-copiar{
+.contenedor .copiar{
     width: 100%;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 40px;
+    display: flex;
 }
 .boton .copiar{
+    justify-content: center;
     text-align: center;
     margin-left: 10%;
 	align-items: center;
-	justify-content: center;
-    flex-direction: column;
-	
-	justify-content: center;
 }
 .boton.copiar::after {
 	content: "";
